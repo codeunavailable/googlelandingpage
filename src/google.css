@@ -23,24 +23,46 @@ a {
 }
 
 .gmage {
-    
+
     border-radius: 15px;
     border: 2px solid rgb(0, 0, 0);
 
 }
-a:hover{
+
+a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-img:hover{
+
+img:hover {
     cursor: pointer;
     border-color: rgba(255, 255, 255, 0.075);
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
 
 }
-.giimage{
-   
+.sb{
+    margin: 29px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.mainsb {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+    width: 35rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+.sicon{
+    margin: 6px;
+}
+input{
+    width: 4rem;
 }
