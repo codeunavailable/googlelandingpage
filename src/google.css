@@ -36,3 +36,11 @@ img:hover{
     cursor: pointer;
     border-color: rgba(255, 255, 255, 0.075);
 }
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+.giimage{
+   
+}
