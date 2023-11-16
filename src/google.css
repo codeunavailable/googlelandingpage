@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(32, 33, 36, 1);
+    color: white;
+    font: 13px/27px Roboto, Arial, sans-serif;
+}
+
+.navh {
+    margin: 15px;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.nav {
+
+    margin-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.gmage {
+    
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+img:hover{
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.075);
+}
