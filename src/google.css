@@ -16,6 +16,9 @@ body {
 
     margin-left: 2rem;
 }
+.profile{
+    
+}
 
 a {
     text-decoration: none;
@@ -42,6 +45,7 @@ img:hover {
 .logo {
     display: flex;
     justify-content: center;
+    margin-top: 211px;
 
 }
 .sb{
@@ -54,15 +58,29 @@ img:hover {
 .mainsb {
     display: flex;
     justify-content: flex-start;
-    background-color: white;
+    border:.1px solid rgb(177, 177, 177);
+    background-color: rgba(32, 33, 36, 1);
     color: black;
     width: 35rem;
     height: 3rem;
     border-radius: 25px;
 }
+.mainsb:hover{
+    cursor: pointer;
+    background-color: rgb(91, 92, 94);
+    border: 0;
+}
 .sicon{
     margin: 6px;
 }
 input{
-    width: 4rem;
+    background-color: transparent;
+    border: 0px solid;
+    height: 3rem;
+    width: 25rem;
+    color: #CCC;
+    font-size: 19px;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
