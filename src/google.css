@@ -84,3 +84,18 @@ input{
 textarea:focus, input:focus{
     outline: none;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-left: 1rem;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    justify-content: center;
+    border: 0cap;
+
+}
