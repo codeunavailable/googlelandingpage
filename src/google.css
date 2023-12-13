@@ -99,3 +99,19 @@ button{
     border: 0cap;
 
 }
+button:hover{
+    border: 0.1px solid;
+  
+}
+.lang{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    color: rgb(4, 192, 255);
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 15px;
+}
